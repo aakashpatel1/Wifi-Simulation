@@ -1,7 +1,4 @@
-
-package simulator;
-
-import java.util.*;
+package Simulator.src.simulator;
 
 /**
  * Simulator is used to simulate the flow of packets coming from different nodes. 
@@ -144,8 +141,8 @@ public class Simulator {
             ++time;
         }
         
-        //System.out.println("Gateway Packets");
-        //g.printPackets();
+        System.out.println("Gateway Packets");
+        g.printPackets();
         
     }
     
